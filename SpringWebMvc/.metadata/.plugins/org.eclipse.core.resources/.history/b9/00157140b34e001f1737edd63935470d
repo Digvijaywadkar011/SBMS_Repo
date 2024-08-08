@@ -1,0 +1,25 @@
+package in.SBMS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.repo.TicketRepo;
+import in.SBMS.request.Passenger;
+
+@Service
+public class TicketService {
+	
+	@Autowired
+	private TicketRepo ticketRepo;
+	
+	public boolean saveTicket() {
+		Passenger psg=new Passenger();
+		
+		ticketRepo
+		
+		return false;
+		
+		
+	}
+
+}

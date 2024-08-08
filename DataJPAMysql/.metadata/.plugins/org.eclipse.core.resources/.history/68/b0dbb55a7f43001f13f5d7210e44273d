@@ -1,0 +1,30 @@
+package in.SBMS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.PersonRepo;
+import in.SBMS.entities.Person;
+import in.SBMS.entities.PersonPK;
+
+@Service
+public class PersonService {
+
+	@Autowired
+	private PersonRepo perRepo;
+	
+	public void savePerson() {
+		
+		PersonPK pk = new PersonPK();
+		pk.setAdhar(7866868689l);
+		pk.setPassNo("BMVPB20432");
+		
+		Person p= new Person();
+		p.setName("Raju");
+		p.setEmail("raju@gmail.com");
+		p.setPerson(pk);
+		
+		perRepo.save(p);
+	}
+	
+}

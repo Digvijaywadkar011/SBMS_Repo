@@ -1,0 +1,6 @@
+package in.SBMS.service;
+
+
+public interface MakeMyTripService {
+
+}

@@ -1,0 +1,26 @@
+package in.SBMS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.BookRepo;
+import in.SBMS.entities.Book;
+
+@Service
+public class BookService {
+
+	@Autowired
+	private BookRepo bookRepo;
+	
+	public void  saveBooks() {
+		
+		Book b1=new Book("Java",2200.00);
+		Book b1=new Book("SpringBoot",3000.00);
+		Book b1=new Book("AWS",9000.00);
+		Book b1=new Book("Angular",1000.00);
+		Book b1=new Book("Devops",2000.00);
+		Book b1=new Book("RectJs",1000.00);
+		
+	}
+	
+}

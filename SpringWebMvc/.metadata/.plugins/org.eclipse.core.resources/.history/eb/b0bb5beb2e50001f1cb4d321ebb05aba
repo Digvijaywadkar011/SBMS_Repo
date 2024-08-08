@@ -1,0 +1,65 @@
+package in.SBMS.service;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.reactive.function.BodyInserters;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import in.SBMS.request.Passenger;
+import in.SBMS.response.Ticket;
+import reactor.core.publisher.Mono;
+
+@Service
+public class MakeMyTripServiceImpl implements MakeMyTripService {
+
+	@Override
+	public Mono<Ticket>  bookTicket(Passenger passenger) {
+		String apiUrl = "http://3.26.24.56:8080/bookTicket";
+
+		WebClient webClient = WebClient.create();
+		
+		Mono<Ticket> bodyToMono = webClient.post()
+		.uri(apiUrl)
+		.body(BodyInserters.fromValue(passenger))
+		.retrieve()
+		.bodyToMono(Ticket.class);
+		
+
+		return bodyToMono;
+	}
+
+	@Override
+	public Ticket getTicket(Integer ticketNum) {
+
+		String apiUrl = "http://3.26.24.56:8080/getTicket/{ticketNum}";
+
+		RestTemplate rt = new RestTemplate();
+
+		ResponseEntity<Ticket> forEntity = rt.getForEntity(apiUrl, Ticket.class, ticketNum);
+
+		Ticket body = forEntity.getBody();
+
+		return body;
+	}
+
+	@Override
+	public List<Ticket> getAllTicket() {
+
+		String apiUrl = "http://3.26.24.56:8080/getTickets";
+
+		RestTemplate rt = new RestTemplate();
+
+		ResponseEntity<Ticket[]> forEntity = rt.getForEntity(apiUrl, Ticket[].class);
+
+		Ticket[] body = forEntity.getBody();
+
+		List<Ticket> ticketList = Arrays.asList(body);
+
+		return ticketList;
+	}
+
+}

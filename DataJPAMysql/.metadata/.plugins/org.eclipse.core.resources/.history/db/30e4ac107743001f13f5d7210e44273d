@@ -1,0 +1,20 @@
+package in.SBMS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.BookRepo;
+import in.SBMS.entities.Book;
+
+@Service
+public class BookService {
+
+	@Autowired
+	private BookRepo bookRepo;
+	
+	public void  saveBooks() {
+		
+		Book b1=new Book();
+	}
+	
+}

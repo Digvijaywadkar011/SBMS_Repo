@@ -1,0 +1,8 @@
+package in.SBMS;
+
+public class Snippet {
+	public static void main(String[] args) {
+		MTM_App_WebClient
+	}
+}
+

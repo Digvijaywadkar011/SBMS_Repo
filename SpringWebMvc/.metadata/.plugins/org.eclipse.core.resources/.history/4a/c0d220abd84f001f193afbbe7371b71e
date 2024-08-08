@@ -1,0 +1,36 @@
+package in.SBMS.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import in.SBMS.request.Passenger;
+import in.SBMS.response.Ticket;
+import in.SBMS.service.MakeMyTripServiceImpl;
+
+
+@Controller
+public class MakeMyTripController {
+	
+	@Autowired
+	private MakeMyTripServiceImpl service;
+	
+	@GetMapping("/")
+	public String index(Model model) {
+		
+		model.addAttribute("passenger",new Passenger());
+		
+		return "index";
+	}
+	
+	public String handelBookTicketBtn(Passenger passenger,Model model) {
+		
+		Ticket bookTicket = service.bookTicket(passenger);
+		
+		model.addAttribute("ticket",bookTicket);
+		
+		return "view-ticket";
+	}
+
+}

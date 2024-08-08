@@ -1,0 +1,4 @@
+spring.application.name=11-MTM_RestTemplateConsumerApp
+
+management.endpoints.web.exposure.include=*
+management.endpoint.shutdown.enabled=true

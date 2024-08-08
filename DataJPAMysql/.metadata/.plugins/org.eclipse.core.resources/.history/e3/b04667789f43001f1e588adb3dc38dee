@@ -1,0 +1,32 @@
+package in.SBMS.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.AddRepo;
+import in.SBMS.Repo.EmpRepo;
+import in.SBMS.entities.Address;
+import in.SBMS.entities.Employee;
+
+@Service
+public class EmpService {
+	
+	@Autowired
+	private EmpRepo empRepo;
+	
+	@Autowired
+	private AddRepo addRepo;
+
+	public void saveEmp() {
+		
+		Employee emp=new Employee("Digvijay",50000.00);
+		
+		empRepo.save(emp);
+		
+		int i=i/0;
+		
+		Address add=new Address("MH","PUNE","INDIA",emp.getEmpId());
+		
+		addRepo.save(add);
+	}
+}

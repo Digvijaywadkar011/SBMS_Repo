@@ -1,0 +1,23 @@
+package in.SBMS.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.PersonRepo;
+import in.SBMS.entities.Person;
+
+@Service
+public class PersonService {
+	
+	@Autowired
+	private PersonRepo personRepo;
+
+	public void saveData() {
+		
+		Person person=new Person();
+		
+		person.setName("Digvijay");
+		
+		
+	}
+}

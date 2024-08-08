@@ -1,0 +1,22 @@
+package in.SBMS.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import in.SBMS.entity.Ticket;
+import in.SBMS.request.Passenger;
+import in.SBMS.service.TicketServiceImpl;
+
+@Controller
+public class MakeMyTripController {
+	
+	@Autowired
+	private MakeMyTripServiceImpl service;
+	
+	public ResponseEntity<Ticket> bookTicket(@RequestBody Passenger passenger){
+		
+	}
+
+}

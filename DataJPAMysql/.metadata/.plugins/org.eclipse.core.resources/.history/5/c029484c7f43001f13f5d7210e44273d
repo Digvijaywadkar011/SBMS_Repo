@@ -1,0 +1,16 @@
+package in.SBMS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.PersonRepo;
+
+@Service
+public class PersonService {
+
+	@Autowired
+	private PersonRepo perRepo;
+	
+	
+	
+}

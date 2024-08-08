@@ -1,0 +1,5 @@
+package in.SBMS.Repo;
+
+public interface PersonRepo {
+
+}

@@ -1,0 +1,40 @@
+package in.SBMS.service;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import in.SBMS.request.Passenger;
+import in.SBMS.response.Ticket;
+
+@Service
+public class MakeMyTripServiceImpl implements MakeMyTripService{
+
+	@Override
+	public Ticket bookTicket(Passenger passenger) {
+		String url="http://localhost:8080/bookTicket";
+		
+		RestTemplate rt=new RestTemplate();
+		
+		// Sending Post Request (apiUrl , reqBodyData, responseBodyType)
+		
+		ResponseEntity<Ticket> responseEntity = rt.postForEntity(url, passenger, Ticket.class);
+		
+		return null;
+	}
+
+	@Override
+	public Ticket getTicket(Integer ticketNum) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Ticket> getAllTicket() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

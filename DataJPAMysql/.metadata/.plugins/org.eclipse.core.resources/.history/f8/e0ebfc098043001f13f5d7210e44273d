@@ -1,0 +1,22 @@
+package in.SBMS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.PersonRepo;
+import in.SBMS.entities.Person;
+import in.SBMS.entities.PersonPK;
+
+@Service
+public class PersonService {
+
+	@Autowired
+	private PersonRepo perRepo;
+	
+	public void savePerson() {
+		
+		PersonPK pk=new PersonPK();
+		pk.setAdhar(7868687791);
+	}
+	
+}

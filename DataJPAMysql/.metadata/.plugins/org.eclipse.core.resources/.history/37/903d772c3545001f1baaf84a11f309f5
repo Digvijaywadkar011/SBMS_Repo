@@ -1,0 +1,16 @@
+package in.SBMS.service;
+
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.ProductRepo;
+
+@Service
+public class ProductService {
+
+	private  ProductRepo pRepo;
+	
+	public ProductService(ProductRepo pRepo) {
+		this.pRepo=pRepo;
+		
+	}
+}

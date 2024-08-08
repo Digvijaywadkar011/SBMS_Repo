@@ -1,0 +1,13 @@
+package in.SBMS.entites;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Car {
+
+	private Integer carId;
+	
+	private String carName;
+	
+	private String carType;
+}

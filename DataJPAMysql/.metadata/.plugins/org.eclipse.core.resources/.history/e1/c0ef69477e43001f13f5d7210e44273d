@@ -1,0 +1,11 @@
+package in.SBMS.entities;
+
+import jakarta.persistence.Embeddable;
+
+@Embeddable
+public class PersonPK {
+	
+	private Long adhar;
+	private string passNo;
+
+}

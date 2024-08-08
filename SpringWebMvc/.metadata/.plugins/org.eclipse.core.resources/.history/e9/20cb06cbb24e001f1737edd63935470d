@@ -1,0 +1,8 @@
+package in.SBMS.service;
+
+
+
+@Serv
+public class TicketService {
+
+}

@@ -1,0 +1,14 @@
+package in.SBMS.entities;
+
+import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Entity;
+
+@Entity
+public class Person {
+
+	private String name;
+	private String email;
+	
+	@EmbeddedId
+	private PersonPK person;
+}

@@ -1,0 +1,24 @@
+package in.SBMS.entities;
+
+import java.time.LocalDate;
+
+import jakarta.annotation.Generated;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Product {
+	
+	@Id
+	private Integer productId;
+	
+	private String productName;
+	
+	private Double productPrice;
+	
+	
+	private LocalDate issueDate;
+	
+	private LocalDate updateDate;
+
+}

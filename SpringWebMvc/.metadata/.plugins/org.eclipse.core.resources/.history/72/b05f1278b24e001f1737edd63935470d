@@ -1,0 +1,19 @@
+package in.SBMS.request;
+
+public class Passenger {
+
+	private String name;
+
+	private Integer phno;
+
+	private String Gender;
+
+	private String startFrom;
+
+	private String stopTo;
+
+	private String date;
+
+	private Integer trainNum;
+
+}

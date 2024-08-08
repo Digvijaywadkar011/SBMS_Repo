@@ -1,0 +1,29 @@
+package in.SBMS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import in.SBMS.Repo.ProductRepo;
+import in.SBMS.entities.Product;
+
+@Service
+public class ProductService {
+
+	@Autowired
+	private ProductRepo prodRepo;
+	
+	public void saveProduct() {
+		
+		Product p1=new Product("Mouse",500.00);
+		Product p1=new Product("Keybord",1000.00);
+		Product p1=new Product("HDD",2500.00);
+		Product p1=new Product("Monitor",10000.00);
+		Product p1=new Product("SSD",4000.00);
+		Product p1=new Product("Pc table",8000.00);
+		Product p1=new Product("AC",25000.00);
+		
+		
+		
+		
+	}
+}

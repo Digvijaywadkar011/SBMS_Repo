@@ -1,0 +1,14 @@
+package in.SBMS.entites;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
+public class TataCompany {
+
+	@Id
+	@GeneratedValue()
+	
+	private Integer companyId;
+}

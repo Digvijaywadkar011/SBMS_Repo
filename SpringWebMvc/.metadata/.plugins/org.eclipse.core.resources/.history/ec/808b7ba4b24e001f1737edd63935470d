@@ -1,0 +1,5 @@
+package in.SBMS.repo;
+
+public interface TicketRepo {
+
+}

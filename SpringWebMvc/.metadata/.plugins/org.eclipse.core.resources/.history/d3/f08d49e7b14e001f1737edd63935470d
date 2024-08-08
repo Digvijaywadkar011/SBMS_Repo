@@ -1,0 +1,29 @@
+package in.SBMS.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public class Ticket {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private Integer ticketNum;
+	
+	private String name;
+	
+	private Integer phno;
+	
+	private String Gender;
+	
+	private String startFrom;
+	
+	private String stopTo;
+	
+	private Double price;
+	
+	private  date;
+	
+}
