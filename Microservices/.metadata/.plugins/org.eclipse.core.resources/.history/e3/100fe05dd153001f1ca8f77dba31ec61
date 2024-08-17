@@ -1,5 +1,0 @@
-package in.SBMS.rest;
-
-public class WelcomeRestController {
-
-}

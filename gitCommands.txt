@@ -1,0 +1,156 @@
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ git status
+Refresh index: 100% (1994/1994), done.
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Microservices/.metadata/.log
+        modified:   Microservices/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/af/history.index
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/e4/b9/22/25/35/d4/history.index
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/e4/b9/db/history.index
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/properties.index
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/org.eclipse.jdt.core/state.dat
+        modified:   Microservices/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+        modified:   Microservices/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs
+        modified:   Microservices/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+        modified:   Microservices/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+        modified:   Microservices/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+        modified:   Microservices/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+        modified:   Microservices/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.debug.core/.launches/06-ConfigClient - Application.launch
+        modified:   Microservices/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+        modified:   Microservices/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+        modified:   Microservices/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index.tmp
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.jdt.core/2084075401.index
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.jdt.core/3776030250.index
+        modified:   Microservices/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+        modified:   Microservices/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+        modified:   Microservices/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+        modified:   Microservices/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+        modified:   Microservices/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2024/8/32/refactorings.history
+        modified:   Microservices/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2024/8/32/refactorings.index
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.m2e.core/06-ConfigClient.lifecyclemapping
+        modified:   Microservices/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+        modified:   Microservices/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties
+        deleted:    Microservices/.metadata/.plugins/org.eclipse.m2e.jdt/06-ConfigClient.container
+        modified:   Microservices/.metadata/.plugins/org.eclipse.m2e.logback/0.log
+        modified:   Microservices/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+        modified:   Microservices/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+        modified:   Microservices/.metadata/version.ini
+        deleted:    Microservices/06-ConfigClient/.gitignore
+        deleted:    Microservices/06-ConfigClient/.mvn/wrapper/maven-wrapper.properties
+        deleted:    Microservices/06-ConfigClient/mvnw
+        deleted:    Microservices/06-ConfigClient/mvnw.cmd
+        deleted:    Microservices/06-ConfigClient/pom.xml
+        deleted:    Microservices/06-ConfigClient/src/main/java/in/SBMS/Application.java
+        deleted:    Microservices/06-ConfigClient/src/main/java/in/SBMS/rest/WelcomeRestController.java
+        deleted:    Microservices/06-ConfigClient/src/main/resources/application.yml
+        deleted:    Microservices/06-ConfigClient/src/test/java/in/SBMS/ApplicationTests.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Microservices/.gitignore
+        Microservices/07-ConfigClient/
+        Microservices/08-RedisCache_App/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ git add --a
+warning: in the working copy of 'Microservices/.metadata/.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2024/8/32/refactorings.index', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/src/main/java/in/SBMS/Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/src/main/resources/application.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/07-ConfigClient/src/test/java/in/SBMS/ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/src/main/java/in/SBMS/Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Microservices/08-RedisCache_App/src/test/java/in/SBMS/ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ git commit -m 'latest apps'
+[master 00f202b] latest apps
+ 56 files changed, 3916 insertions(+), 1818 deletions(-)
+ create mode 100644 Microservices/.gitignore
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/af/history.index
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/e4/b9/22/25/35/d4/history.index
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/e4/b9/db/history.index
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/.indexes/properties.index
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.core.resources/.projects/06-ConfigClient/org.eclipse.jdt.core/state.dat
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.debug.core/.launches/06-ConfigClient - Application.launch
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index.tmp
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.jdt.core/2084075401.index
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.jdt.core/3776030250.index
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.m2e.core/06-ConfigClient.lifecyclemapping
+ delete mode 100644 Microservices/.metadata/.plugins/org.eclipse.m2e.jdt/06-ConfigClient.container
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/.gitignore (100%)
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/.mvn/wrapper/maven-wrapper.properties (100%)
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/mvnw (100%)
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/mvnw.cmd (100%)
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/pom.xml (93%)
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/src/main/java/in/SBMS/Application.java (100%)
+ rename Microservices/{06-ConfigClient/src/main/java/in/SBMS/rest => 07-ConfigClient/src/main/java/in/SBMS/restController}/WelcomeRestController.java (70%)
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/src/main/resources/application.yml (100%)
+ rename Microservices/{06-ConfigClient => 07-ConfigClient}/src/test/java/in/SBMS/ApplicationTests.java (100%)
+ create mode 100644 Microservices/08-RedisCache_App/.gitignore
+ create mode 100644 Microservices/08-RedisCache_App/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 Microservices/08-RedisCache_App/mvnw
+ create mode 100644 Microservices/08-RedisCache_App/mvnw.cmd
+ create mode 100644 Microservices/08-RedisCache_App/pom.xml
+ create mode 100644 Microservices/08-RedisCache_App/src/main/java/in/SBMS/Application.java
+ create mode 100644 Microservices/08-RedisCache_App/src/main/java/in/SBMS/Model/Book.java
+ create mode 100644 Microservices/08-RedisCache_App/src/main/java/in/SBMS/config/RedisConfig.java
+ create mode 100644 Microservices/08-RedisCache_App/src/main/java/in/SBMS/restController/BookRestController.java
+ create mode 100644 Microservices/08-RedisCache_App/src/main/resources/application.properties
+ create mode 100644 Microservices/08-RedisCache_App/src/test/java/in/SBMS/ApplicationTests.java
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ git push origin master
+Enumerating objects: 141, done.
+Counting objects: 100% (141/141), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (67/67), done.
+Writing objects: 100% (91/91), 2.15 MiB | 157.00 KiB/s, done.
+Total 91 (delta 27), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (27/27), completed with 26 local objects.
+To https://github.com/Digvijaywadkar011/SBMS_Repo.git
+   9521823..00f202b  master -> master
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ ^C
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$ ^C
+
+mightyking@DESKTOP-DDE7B1V MINGW64 /d/SpringSTSWorkshop (master)
+$
